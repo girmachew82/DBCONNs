@@ -2,7 +2,7 @@
 try{
     $conn = new PDO("mysql:host=localhost;dbname=bid;",'root','');
     $conn->SetAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-        echo "Connected";
+        //echo "Connected";
    
    }
 catch(PDOException $e)

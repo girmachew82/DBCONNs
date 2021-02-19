@@ -2,7 +2,7 @@
 class Course{
     public $code;
     public $title;
-   public  function setCode($code)
+    public  function setCode($code)
     {
         $this->code = $code;
     }

@@ -1,5 +1,5 @@
 <?php
-session_start();
+require_once'session.php';
 echo "Welcome ".$_SESSION['username'];
 ?>
 <span align:right><a href="logout.php">Logout</a></span>

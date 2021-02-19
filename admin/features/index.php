@@ -52,6 +52,7 @@ $conn->db_connect();
 $conn->read();
 if(isset($_POST['save']))
 {
-    echo $conn->insert();
+    $username = $_POST['name'];
+    echo $conn->insert($username);
 }
 ?>

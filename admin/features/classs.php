@@ -20,8 +20,11 @@ class MySQLRepository extends DBCommonMethod implements IRepository{
     
     public function insert($data)
     {
+        
+        /*
         $name ="Abebe";
         $pass = "abespass";
+        */
         $sql_insert = $conn->prepare("INSERT INTO tbluser (`name`,`pass`)
         VALUES(:name,:pass)
             ");
